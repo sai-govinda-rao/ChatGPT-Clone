@@ -3,7 +3,7 @@ import time
 def chat_with_gpt(prompt):
 
     client = OpenAI(
-        api_key=""
+        api_key="" # --> create a openai key and past here
     )
 
     completion = client.chat.completions.create(
